@@ -42,3 +42,24 @@ img{
     opacity: 1;
     transform: scale(1);
 }
+
+[data-control="slide"]{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+[data-control="slide"] li{
+    width: 20px;
+    height: 20px;
+    background: rgb(87, 87, 87);
+    border-radius: 50%;
+    overflow: hidden;
+    text-indent: -999px;
+    cursor: pointer;
+}
+[data-control="slide"] li.active,[data-control="slide"] li:hover{
+    background: #e54;
+}

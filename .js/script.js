@@ -5,3 +5,5 @@ slide.init();
 
 
 slide.addArrow('.prev', '.next');
+
+slide.addControl();
